@@ -1,0 +1,167 @@
+body{
+    font:15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin:0 ;
+    background-color:#f4f4f4;
+    }
+section{
+    width: 90%;
+    margin:auto;
+    overflow: hidden;
+    text-align:
+    }
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+header{
+    background:      #e8491d;
+    color:#ffffff ;
+    padding-top:30px;
+    min-height:70px;
+    font-size:16px;
+    border-bottom:#35424a 5px solid;
+}
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    text-weight:bold;
+    font-size:20px;
+}
+header li{
+    float:left;
+    display:inline;
+    padding:0 20px 0 20px;
+} 
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin:0;
+}
+header nav{
+    float: right;
+    margin-top:10px;
+}
+header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;  
+}
+header a:hover{
+    color:#13044e;
+    font-weight:bold;
+}
+header h1{
+    float: right;
+    font-size:30px;
+}
+.button{
+    height:70px ;
+    background:#e8491d ;
+    border:0;
+    padding-left:20px;
+    padding-right:20px;
+    color:#ffffff;
+    position: center;
+    
+}
+#branding{
+    text-align: center;
+}
+.button a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:17px;
+    font-weight:bold;
+   
+}
+#boxes{
+    margin-top
+}
+#boxes .box{
+    float: Left;
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+    text-decoration:none;
+}
+#boxes .box img{
+    width:120px;
+    height: 100px;
+    
+}
+#boxes .box a{
+    text-decoration:none;
+    font-weight:bold;
+    
+}
+
+h2{
+    text-align: center;
+}
+.center{
+    text-align: center;
+    }
+    
+    
+    
+               /* fifa 16 mod 24 */
+
+.orange{
+    color: orange;
+}
+section .btf{
+    border:red solid;
+    width:300px;
+    font-size:20px;
+    line-heighg:25px;
+    padding: 10px 0;
+    border-radius:25px;
+    cursors: pointer;
+    text-align: center;
+    background: blue;
+    margin-top:20px;
+    
+}
+.btf a{
+    color: white;
+    text-decoration:none;
+    font-weight:bold;
+}
+section h1{
+    text-align: center;
+    font-size:30px;
+}
+#purple{
+    color: ;
+}
+section .wide{
+    border:red solid;
+    width:330px;
+    font-size:20px;
+    line-heighg:25px;
+    padding: 10px 0;
+    border-radius:25px;
+    cursors: pointer;
+    text-align: center;
+    background: blue;
+    margin-top:20px;
+    
+}
+.wide a{
+    color: white;
+    text-decoration:none;
+    font-weight:bold;
+}
+section a{
+    text-decoration:none;
+    font-weight:bold;
+    color: blue;
+}
