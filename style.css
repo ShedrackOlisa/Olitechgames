@@ -3,6 +3,7 @@ body{
     padding: 0;
     margin:0 ;
     background-color:#f4f4f4;
+    
     }
 section{
     width: 90%;
@@ -24,15 +25,16 @@ header{
     color:#ffffff ;
     padding-top:30px;
     min-height:70px;
-    font-size:16px;
+    font-size:15px;
     border-bottom:#35424a 5px solid;
+    
 }
 header a{
     color:#ffffff;
     text-decoration:none;
     text-transform: uppercase;
     text-weight:bold;
-    font-size:17px;
+    font-size:12px;
 }
 header li{
     float:left;
@@ -49,8 +51,8 @@ header nav{
     float: right;
     margin-top:10px;
 }
-header .highlight, header .current a{
-    color:#e8491d;
+header .current a{
+    color: blue;
     font-weight:bold;  
 }
 header a:hover{
@@ -78,30 +80,11 @@ header h1{
     color:#ffffff;
     text-decoration:none;
     text-transform: uppercase;
-    font-size:17px;
+    font-size:10px;
     font-weight:bold;
    
 }
-#boxes{
-    margin-top
-}
-#boxes .box{
-    float: Left;
-    text-align: center;
-    width: 40%;
-    padding: 10px;
-    text-decoration:none;
-}
-#boxes .box img{
-    width:120px;
-    height: 100px;
-    
-}
-#boxes .box a{
-    text-decoration:none;
-    font-weight:bold;
-    
-}
+
 
 h2{
     text-align: center;
@@ -115,25 +98,9 @@ h2{
                /* fifa 16 mod 24 */
 
 .orange{
-    color: orange;
+    color: red;
 }
-section .btf{
-    border:red solid;
-    width:300px;
-    font-size:20px;
-    line-heighg:25px;
-    padding: 10px 0;
-    border-radius:25px;
-    cursors: pointer;
-    text-align: center;
-    background: blue;
-    margin-top:20px;
-    
-}
-.btf a{
-    color: white;
-    text-decoration:none;
-    font-weight:bold;
+
 }
 section h1{
     text-align: center;
@@ -143,7 +110,7 @@ section h1{
     color: ;
 }
 section .wide{
-    border:red solid;
+    border: white solid;
     width:330px;
     font-size:20px;
     line-heighg:25px;
@@ -151,14 +118,16 @@ section .wide{
     border-radius:25px;
     cursors: pointer;
     text-align: center;
-    background: blue;
+    background: purple ;
     margin-top:20px;
+    margin-right:10px;
     
 }
 .wide a{
-    color: white;
+    color: #ffffff;
     text-decoration:none;
     font-weight:bold;
+    font-size:15px;
 }
 section a{
     text-decoration:none;
@@ -170,21 +139,24 @@ footer{
     color:#ffffff ;
     padding-top:30px;
     min-height:150px;
-    font-size:16px;
+    font-size:13px;
     text-align: center;
+}
+footer a{
+
 }
 .blue a{
     color:#ffffff;
     text-decoration:none;
     text-transform: uppercase;
-    font-size:17px;
+    font-size:13px;
     font-weight:bold;
     
 }
 .blue{
     border: white solid;
     width:115px;
-    font-size:20px;
+    font-size:15px;
     line-heighg:25px;
     padding: 10px 0;
     border-radius:20px;
@@ -241,6 +213,8 @@ h3{
     min-height:150px;
     font-size:15px;
     text-align: center;
+    
+    
 }
 .bt{
     
@@ -255,7 +229,61 @@ h3{
     margin-top:5px;
    
 }
-header .current a{
-    color:#e8491d;
-    font-weight:bold;  
+.center .button{
+    
 }
+section #red{
+    color: red;
+}
+.menu a{
+    
+    font-weight:bold;
+    font-size:12px;
+    
+}
+.ash{
+    background: #ffe795;
+}
+.wide a:hover{
+    color:#e8491d;
+    font-weight:bold;
+}
+.max img{
+    max-width:100%;
+    height: auto;
+}
+
+button.wide {
+    display: block;
+    margin: 0 auto;
+}
+section.menu {
+    display:block;
+    text-align: center;
+    margin: 0 auto;
+}
+#img img{
+     display: block;
+     margin: 0 auto;
+ }
+#id a{
+    color: green;
+}
+h1{
+    text-align: center;
+    font-size:25px;
+      
+    }
+#datetime-display{
+    text-align: center;
+    margin-top:10px;
+    color: #e8491d;
+    font-weight:bold;
+}
+
+
+
+
+
+
+
