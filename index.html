@@ -4,56 +4,71 @@
     <meta charset="UTF-8">
     <meta name="google-site-verification" content="8DXiaCCQ48QtqrqBh2vQzeMhcy2jsFL0PRtGlMV9_xA" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olitechgames-home-title</title>
+    <title>home-title</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="container">
-        <div id="branding">
-            <img src="logo1.jpg" width="55px"><h1>Olitechgames</h1>
-            </div>
-            <nav>
-       <form>
-           <ul>
-               <li class="current">
-                   <a href="index.html">home</a>
-               </li>
-               <li>
-                   <a href="games.html">games</a>
-               </li>
-               
-               <li>
-                   <a href="guide.html">Guide</a>
-               </li>
-           </ul>
-       </form>
-            </nav>
-        </div>
-    </header>
+   <img src="king.jpg" width="55px"> <h1>Olitech Games</h1>
+   
+   
+   <button id="searchButton" onclick="toggleSearch()"><img src="search.jpg"width="30px" alt=""></button>
+   <div id="searchBackground" class="hidden">
+    <div class="search-container">  
+        <input type="text" id="searchInput" placeholder="Search ...." oninput="search()">
+        <button onclick="search()"><img src="search.jpg"width="30px" alt=""></button>
+    </div>
+
+    <div class="results">  
+        <ul id="searchResults"><ul>
+    </div>
+  </div>
+   
+   
+   
+   
+   
+   
+    <div class="menu-icon" onclick="toggleMenu()">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div id="menu-items" class="hidden">
+      <ul>
+        <li id="high" class="current"><a href="index.html">Home</a></li>
+        <li><a href="android-games.html">Android Games</a></li>
+        <li><a href="psp-games.html">PSP Games</a></li>
+        <li><a href="android-apps.html">Android Apps</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      <div id="high"> <li> <div class="image-container">
+     <a href="https://www.facebook.com/profile.php?id=61550752782084"><img src="Facebook.png" width="45px" alt="Image 1"></a>
+      
+     <a href="https://chat.whatsapp.com/IcDkQurjkgmKjBm6vvhDJf"><img src="WhatsApp.png" width="45px" alt="Image 3"></a><br>
+        
+      <a href="https://t.me/+k35-Txp83qE2YzBk"><img src="telegram.png" width="45px" alt="Image 4"></a>
+      
+      
+     <a href="https://www.youtube.com/@Olitechgames"><img src="you.png" width="45px" alt="Image 2"></a>
+      
+    </div></li></div>
+      </ul>
+    </div>
+    <div class="cancel-icon" onclick="toggleMenu()">Cancel</div>
+  </header><br><br><br>
+  <div class="whatsapp-button">
+    <a href="https://web.whatsapp.com/" target="_blank"><b>
+      Join
+      WhatsApp
+      group
+   </b> </a>
+  </div>
+  
+  
+  
     <section>
         
-        <div>
-            
-                
-           
-           <script>
-    // Function to update the date and time
-    function updateDateTime() {
-        const datetimeDisplay = document.getElementById('datetime-display');
-        const now = new Date();
-
-        // Format the date and time as desired
-        const formattedDateTime = `${now.toLocaleDateString()} ${now.toLocaleTimeString()}`;
-
-        // Update the content of the HTML element
-        datetimeDisplay.textContent = formattedDateTime;
-    }
-
-    // Call the function to update immediately and then every second (1000 milliseconds)
-    updateDateTime();
-    setInterval(updateDateTime, 1000);
-</script>
+        
         
     <div class="game">
         <h2>Welcome to olitechgames<br>chose the type of game you want to download from the menu below <br>👇<br></h2>
@@ -64,24 +79,33 @@
          
     </section>
     
-    
+    <div class="image-container">
+     <a href="https://www.facebook.com/profile.php?id=61550752782084"><img src="Facebook.png" width="55px" alt="Image 1"></a>
+      
+        <img src="WhatsApp.png" width="55px" alt="Image 3">
+      <a href="https://t.me/+k35-Txp83qE2YzBk"><img src="telegram.png" width="55px" alt="Image 4"></a>
+      
+      
+     <img src="you.png" width="55px" alt="Image 2">
+      
+    </div>
     
     <section class="menu">
-    <h1>FOOTBALL GAMES 2024</h1>
+    <h1>FOOTBALL GAMES 2024</h1><br>
     <table>
         
         
         <tr>
-    <td><a href="fifa16.html"><img src="done.jpg"width="160px"height="100px" alt=""><br>Fifa 16 Mod 24 Apk + OBB +<br> Data Offline </a></td>
-    <td><a href="psp.html"><img src="psp1.jpg"width="160px"height="100px" alt=""><br>PES 2024 PPSSPP – PSP<br> Iso PS5 (eFootball)</a></td>
+    <td><a href="fifa-2024-mod-fifa-16-apk-obb-data.html"><img src="done.jpg"width="160px"height="100px" alt=""><br>Fifa 16 Mod 24 Apk + OBB +<br> Data Offline </a></td>
+    <td><a href="pes-2024-ppsspp-psp-iso.html"><img src="psp1.jpg"width="160px"height="100px" alt=""><br>PES 2024 PPSSPP – PSP<br> Iso PS5 (eFootball)</a></td>
         
         
         
         
         
   <tr>
-    <td><a href="fifa14.html"><img src="six.jpg"width="160px"height="100px" alt=""><br>FIFA 2024 Mod FIFA 14<br> APK+OBB+DATA </a></td>
-    <td><a href="dream.html"><img src="dl1.jpg"width="160px" height="100px" alt=""><br>Dream League Soccer 2024 <br>Mod Menu Apk Obb</a></td>
+    <td><a href="fifa-2024-mod-fifa-14-apk-obb-data.html"><img src="six.jpg"width="160px"height="100px" alt=""><br>FIFA 2024 Mod FIFA 14<br> APK+OBB+DATA </a></td>
+    <td><a href="dream-league-soccer-2024-apk-obb-data.html"><img src="dl1.jpg"width="160px" height="100px" alt=""><br>Dream League Soccer 2024 <br>Mod Menu Apk Obb</a></td>
     
     
     
@@ -89,56 +113,26 @@
     
     
     <tr>
-    <td><a href="fts.html"><img src="fts.jpg"width="160px"height="100px" alt=""><br>First Touch Soccer 2024 (FTS)<br> Mod Apk Obb Data </a></td>
-    <td><a href="efootball.html"><img src="eb.jpg"width="160px"height="100px" alt=""><br>PES 2024 Apk Obb 8.0.0<br> Download (eFootball) Android</a></td>
-    </table>
-    </section><br><br>
+    <td><a href="first-touch-soccer-fts-2024-apk-obb-data.html"><img src="fts.jpg"width="160px"height="100px" alt=""><br>First Touch Soccer 2024 (FTS)<br> Mod Apk Obb Data </a></td>
+    <td><a href="efootball-pes-2024-apk-obb.html"><img src="eb.jpg"width="160px"height="100px" alt=""><br>PES 2024 Apk Obb 8.0.0<br> Download (eFootball) Android</a></td>
     
-    
-    
-    <section class="ash">
-    <h1>MISSION GAMES</h1>
-<div>
-<table>
-  <tr>
-    <td><a href="callofduty.html"><img src="cd.jpg"width="165px"height="100px" alt="PSP"><br>.</a></td>
-    <td><a href="callofduty.html">Download  Call Of Duty Mobile 1.0.17 (COD) Highly Compressed </a></td></tr>
     
     
     
     <tr>
-    <td><a href="freefire.html"><img src="freefire.jpg"width="165px"height="100px" alt="PSP"><br>.</a></td>
-    <td><a href="freefire.html">Download Garena Free Fire Apk Obb</a></td></tr>
+    <td><a href="ea-sports-fc-mobile-24-soccer.html"><img src="fc-mobile.jpg"width="160px"height="100px" alt=""><br>EA sports fc mobile 24<br> soccer </a></td>
+    <td><a href="pro-league-soccer-pls-2024.html"><img src="pls.jpg"width="160px"height="100px" alt=""><br>Pro League Soccer<br> 2024 Apk</a></td>
     
     
-    
-    <tr>
-    <td><a href="needforspeed.html"><img src="speed.jpg"width="165px"height="100px" alt="PSP"><br>.</a></td>
-    <td><a href="needforspeed.html">Download Need For Speed Most Wanted Mod Apk Obb Downloa</a></td></tr>
-    
-    
-    
-    <tr>
-    <td><a href="mortalkombat.html"><img src="Kombat1.jpg"width="165px"height="100px" 
-alt=""><br>.</a></td>
-<td><a href="mortalKombat.html"><a href="mortalKombat.html">Download Mortal Kombat Fighting Mod Apk Obb Mod Menu
-</a></td></tr>
-    
-    
-     <tr>
-    <td><a href="subway.html"><img src="subway.jpg"width="165px"height="100px" alt=""><br>.</a></td>
-    <td><a href="subway.html">Download Subway Surfers Mod Apk For Android</a></td></tr>
-    
-    
-    
-    <tr>
-    <td><a href="minimilitia.html"><img src="mini.jpg"width="165px"height="100px" 
-alt=""><br>.</a></td>
-    <td><a href="minimilitia.html">Download Mini Militia Mod Apk – Doodle Army 2</a></td></tr>
-    
-    </table>
+    </table><br>
+    <div id="big">
+    <a href="android-games.html">View more >>></a>
     </div>
     </section><br><br>
+    
+    
+    
+    
     
     
     
@@ -160,9 +154,92 @@ alt=""><br>.</a></td>
         </div><br><br>
 One of the significant advancements has been in graphics and realism. Modern football games employ cutting-edge technology to recreate stadiums, players, and crowd atmospheres with incredible detail. The level of realism in player movements, expressions, and even weather conditions has reached unprecedented heights, immersing players in the virtual football world like never before.
 <br><br>
-<b>you might like:</b><a href="psp.html">PPSSPP 2024</a><br><br>
+</div>
+</section>
 
 
+<section class="ash">
+    <h1>MISSION GAMES</h1><br>
+<div>
+<table>
+  <tr>
+    <td><a href="call-of-duty-mobile.html"><img src="cd.jpg"width="165px"height="100px" alt="PSP"><br>.</a></td>
+    <td><a href="call-of-duty-mobile.html"> Call Of Duty Mobile 1.0.17 (COD) Highly Compressed </a></td></tr>
+    
+    
+    
+    <tr>
+    <td><a href="gerena-free-fire.html"><img src="freefire.jpg"width="165px"height="100px" alt="PSP"><br>.</a></td>
+    <td><a href="gerena-free-fire.html"> Garena Free Fire Apk Obb</a></td></tr>
+    
+    
+    
+    <tr>
+    <td><a href="need-for-speed-most-wanted.html"><img src="speed.jpg"width="165px"height="100px" alt="PSP"><br>.</a></td>
+    <td><a href="need-for-speed-most-wanted.html">Need For Speed Most Wanted Mod Apk Obb </a></td></tr>
+    
+    
+    
+    <tr>
+    <td><a href="mortal-kombat-fighting-mod.html"><img src="Kombat1.jpg"width="165px"height="100px" 
+alt=""><br>.</a></td>
+<td><a href="mortal-kombat-fighting-mod.html"> Mortal Kombat Fighting Mod Apk Obb Mod Menu
+</a></td></tr>
+    
+    
+     <tr>
+    <td><a href="subway.html"><img src="subway.jpg"width="165px"height="100px" alt=""><br>.</a></td>
+    <td><a href="subway.html"> Subway Surfers Mod Apk For Android</a></td></tr>
+    
+    
+    
+    <tr>
+    <td><a href="mini-militia-mod-apk–dooble-army-2.html"><img src="mini.jpg"width="165px"height="100px" 
+alt=""><br>.</a></td>
+    <td><a href="mini-militia-mod-apk–dooble-army-2.html">Mini Militia Mod Apk – Doodle Army 2</a></td></tr>
+    
+    
+    
+    <tr>
+    <td><a href="pubg-mobile-lite.html"><img src="pubg.jpg"width="165px"height="100px" alt=""><br>.</a></td>
+    <td><a href="pubg-mobile-lite.html">PUBG Mobile Lite</a></td></tr>
+    
+    
+    
+    <tr>
+    <td><a href="shadow-fight-2.html"><img src="shadow.jpg"width="165px"height="100px" 
+alt=""><br>.</a></td>
+<td><a href="shadow-fight-2.html">Shadow Fight 2 Mod 2.28.0 Apk
+</a></td></tr>
+    
+    
+     <tr>
+    <td><a href="modern-combat-3.html"><img src="modern.jpg"width="165px"height="100px" alt=""><br>.</a></td>
+    <td><a href="modern-combat-3.html">Modern Combat 3 Apk Obb</a></td></tr>
+    
+    
+    
+    <tr>
+    <td><a href="gta-vice-city.html"><img src="gtav.jpg"width="165px"height="100px" 
+alt=""><br>.</a></td>
+    <td><a href="gta-vice-city.html">GTA Vice City Apk Obb</a></td></tr>
+    
+    
+    </table>
+    </div>
+    
+    <div id="big1">
+    <a href="android-games.html">View more >>></a>
+    </div>
+    </section><br><br>
+    
+
+
+
+
+
+<section>
+    <div>
 Gameplay mechanics have also undergone substantial improvements. Enhanced AI algorithms make in-game opponents smarter, more adaptive, and capable of replicating real-world football strategies. Controls have become more intuitive, allowing players to execute intricate dribbles, passes, and shots with precision.
 <br><br>
 Online multiplayer features have become a cornerstone of football gaming, enabling players to compete with friends and rivals worldwide. These updates often include live events, leagues, and tournaments, fostering a sense of community among gamers.
@@ -170,15 +247,54 @@ Online multiplayer features have become a cornerstone of football gaming, enabli
 Lastly, regular updates and patches keep the game fresh by reflecting real-world changes in player abilities, transfers, and team performances. This dynamic approach ensures that football game enthusiasts can stay engaged and connected to the evolving world of football.
 <br><br>
 
-<b>you might like:</b><a href="fifa14.html">FIFA 24 MOD 14</a><br><br>
+
 
 In summary, football game updates have transformed virtual football into an immersive and ever-evolving experience, captivating fans with stunning visuals, realistic gameplay, and a vibrant online community.
             
         </div>
     </section>
+    
+    
+    
+    <section class="menu">
+    <h1>HIGHLY RECOMMEND</h1><br>
+    <table>
+        
+        
+        <tr>
+    <td><a href="call-of-duty-warzone-mobile.html"><img src="warzone.jpg"width="160px"height="100px" alt=""><br>Call Of Duty Warzone<br> Mobile</a></td>
+    <td><a href="unkilled.html"><img src="unkilled.jpg"width="160px"height="100px" alt=""><br>UNKILLED - FPS Zombie<br> Games</a></td>
+        
+        
+        
+        
+        
+  <tr>
+    <td><a href="area-f2.html"><img src="area.jpg"width="160px"height="100px" alt=""><br>Area F2 </a></td>
+    <td><a href="left-to-survive.html"><img src="left-to-survive.jpg"width="160px" height="100px" alt=""><br>Left To Survive</a></td>
+    
+    
+    
+
+    
+    
+    <tr>
+    <td><a href="masked-special-forces.html"><img src="masked.jpg"width="160px"height="100px" alt=""><br>Masked Special Forces</a></td>
+    <td><a href="battle-commando.html"><img src="battle-commando.jpg"width="160px"height="100px" alt=""><br>Bio Ops FPS 3D Commando</a></td>
+    
+    
+    </table><br>
+    <div id="big">
+    <a href="android-games.html">View more >>></a>
+    </div>
+    </section><br><br>
+    
+    
+    
+    
     <section>
         <div>
-      <h1> What's new? Some of our games are under construction we are updating the latest as possible as we can</h1>      
+      
           <h3> Dear Valued Gamer,</h3>
 
 We want to extend our heartfelt thanks to all of you who have joined us on this exciting gaming journey. Your enthusiasm and support have been the driving force behind our commitment to creating an extraordinary gaming experience.
@@ -188,7 +304,7 @@ As you may have noticed, our game is currently undergoing a significant transfor
 Behind the scenes, our dedicated team of developers, designers, and testers are hard at work to bring you a game that will exceed your expectations. We are fine-tuning every detail, fixing bugs, and crafting new features to ensure that when the game is back, it will be nothing short of spectacular.
 <br><br>
 
-<b>you might like:</b><a href="fts.html">FTS SOCCER 2024</a><br><br>
+
 Your patience is greatly appreciated during this construction phase. We promise that the end result will be a game that you'll love, cherish, and enjoy for countless hours of entertainment.
 <br><br>
 In the meantime, stay connected with us through our social media channels and website updates. We'll keep you informed about our progress and provide sneak peeks of what's to come.
@@ -200,351 +316,137 @@ Warm regards,
         </div>
     </section>
     
-     <section>
-      <h1>  On which game do you need guide</h1>
-        <div>
-            <details>
-        <summary>How to set FIFA 24 mod 14</summary>
-        <p><div>
-                <h1>
-                    How To Install FIFA 2024 Mod FC 24 Mod Apk Obb Data 
-                </h1>
-  Please follow these steps carefully to install FIFA 24 or EA Sports FC 24 Apk, Obb, and Data files on Android 13. For detailed instructions, please read the download section below. Estimated time 
-  <br><br>
-required: 5 minutes.<br>
-<h3>Instructions for extracting EA Sports FC 24 Apk, Obb, and Data files are as follows:</h3>
-            </div>
-            <div>
-                <ol>
-              <li>
-               <b>  Step One:</b>
-
-Using Installed ZArchiver App locate and click on Data FC 24 Mod rar or Zip file.
-              </li><br>
-             <li>
-               <b>  Step Two:</b>
-In the options menu that appears, select "Extract here" to extract the files into the same folder where you saved your downloads.
-             </li><br>
-               <li>
-           <b>       Step Three:</b>
-Now, patiently wait for the extraction process to reach 100%.
-               </li><br>
-               <li>
-              <b>     Step Four:</b>
-Find the extracted Data file, identified as com.ea.game.fifa14_row.
-               </li><br>
-               <li>
-             <b>      Step Five:</b>
-Long-press the extracted data file for FIFA 24 or FC 24, then select "Copy" from the options menu that appears.
-               </li><br>
-               <li>
-              <b>    Step Six:</b>
-Tap on the folder's title located at the top of the ZArchiver app interface. For example, if you're currently in the Downloads folder, click on "Downloads."
-               </li><br>
-               <li>
-              <b>   Step Seven:</b>
-
-From drop down menu that appears click “Device Storage”.
-               </li><br>
-               <li>
-              <b>    Step Eight:</b>
-
-Click “Android folder” and proceed to the next steps.
-               </li><br>
-               <li>
-                <b>  Step Nine:</b>
-
-Click Data Folder and continue to the next steps.
-               </li><br>
-               <li>
-               <b>   Step Ten:</b>
-
-Click “Extract Icon” which on the right hand side of your phone.
-               </li><br>
-               <li>
-               <b>   Step Eleven:</b>
-Wait for the data files to finish copying into the data folders, ensuring it reaches 100%. This procedure is compatible with Android 12 devices.
-               </li><br>
-               <li>
-                 <b> Step Twelve:</b>
-To extract the Obb file for FIFA 24 Mod 14 or EA FC 24 Mod 14, simply click on the file. An Options Menu will appear; select "Extract" and continue.
-               </li><br>
-               <li>
-                 <b> Step thirteen:</b>
-
-Again Click at the title of the folder you are in at the top of ZArchiver app interface.
-
-               </li><br>
-                    <li>
-                       <b> Step fourteen:</b>
-
-From drop down menu that appears, Click Device Storage
-                    </li><br>
-                    <li>
-                        <b>Step fifteen:</b>
-
-Click Android folder
-                    </li><br>
-                    <li>
-                   <b>    Step Sixteen:</b>
-
-Click Obb Folder.
-                    </li><br>
-                    <li>
-                      <b>Step seventeen:</b>
-
-Click Extract Icon on the down right hand of your phone and the obb file will be extracted completely upon reaching 100%.
-                    </li><br>
-                    <li>
-                       <b>Step Eighteen: </b>
-
-Finally Install the FIFA 24 Mod 14 Apk.
-                    </li>
-     
-                    
-                </ol>
-            </div></p>
-        </details>
-        
-        
-        <details>
-        <summary>How to set PSP 2024</summary>
-        <p><section>
-        <h1>
-            How To Install PES 2024 PPSSPP – PSP Iso Save Data Textures Files 
-
-        </h1>
-        Please follow the steps below to extract and configure files for PES 2024 PPSSPP - PSP on your Android device. This process should take approximately 3 minutes.
-        <div>
-            <ol>
-              <li>
-               <b>  Step One:</b>
-Open Installed ZArchiver app and locate downloaded PES 2024 PPSSPP files, then click on it
-
-              </li><br>
-             <li>
-               <b>  Step Two:</b>
-From options menu that comes, click “Extract
-             </li><br>
-               <li>
-           <b>       Step Three:</b>
- Promptly tap on the folder name located at the top of the ZArchiver interface.
-               </li><br>
-               <li>
-              <b>     Step Four:</b>
-In the dropdown menu that appears, select "Device Storage."
-               </li><br>
-               <li>
-             <b>      Step Five:</b>
-Next, tap on the "Extract" icon and choose to replace all files when prompted.
-               </li><br>
-               <li>
-              <b>    Step Six:</b>
-Now, patiently wait until the file has been successfully extracted, and the progress reaches 100%.
-               </li><br>
-               <li>
-              <b>   Step Seven:</b>
-Upon successful extraction of the PES 2024 PSP file, a PSP folder will be created or replaced and will be visible in your "Device Storage" or "Internal Memory" on your phone. Please make a note of this folder.
-
-               </li><br>
-               <li>
-              <b>    Step Eight:</b>
-Install the latest PPSSPP Gold Apk emulator, then open it. Click on "Browse,".
-
-               </li><br>
-               <li>
-                <b>  Step Nine:</b>
-Scroll down a bit and locate the PSP folder and click on it.
-
-               </li><br>
-               <li>
-               <b>   Step Ten:</b>
-Next, on the following page, select "Use This Folder," and then click "Allow." By doing this, you are granting PPSSPP emulator the necessary permissions to access and load all game files from that folder.
-
-               </li><br>
-               <li>
-               <b>   Step Eleven:</b>
-Now go to PPSSPP Gold settings.
-               </li><br>
-               <li>
-                 <b> Step Twelve:</b>
-Navigate to "System," then select "Language," and choose "Espanol (America Latina)." This adjustment will resolve the issue of a black screen when loading PES 2024.
-               </li><br>
-               </ol>
-        </div>
-    </section></p>
-        </details>
-        </div>
-        
-        <details>
-        <summary>How to FTS soccer 2024</summary>
-        <p><section>
-      <h3>Steps To Install FTS 2024 Apk Obb Data files are:</h3>
-      <div>
-                <ol>
-              <li>
-               <b>  Step One:</b>
-           Install Zarchiver app you downloaded above.    
-
-              </li><br>
-             <li>
-               <b>  Step Two:</b>
-After launching the Zarchiver app, you'll be prompted to grant permissions. Simply tap "OK,
-             </li><br>
-               <li>
-           <b>       Step Three:</b>
-You'll need to grant Zarchiver access to all files in your file manager or phone storage. Keep in mind that the permission interface may vary on some devices, so it might look different.
-               </li><br>
-               <li>
-              <b>     Step Four:</b>
-Click on the downloaded FTS 2024 Data file, Options Menu will come up.
-               </li><br>
-               <li>
-             <b>      Step Five:</b>
-Click “Extract Here” from the options menu that comes up.
-               </li><br>
-               <li>
-              <b>    Step Six:</b>
-Below is the extracted Data file for FTS 2024, click and hold on the file, another options menu will come up.
-               </li><br>
-               <li>
-              <b>   Step Seven:</b>
-After clicking and holding on the Extracted FTS 24 data file, from the options menu that comes up, Click on “Copy” and read Step Eight below. 
-
-               </li><br>
-               <li>
-              <b>    Step Eight:</b>
-Tap on the folder title at the top of the Zarchiver app interface, which, in my case, is "Downloads," where I store my downloaded FTS files.
-
-               </li><br>
-               <li>
-                <b>  Step Nine:</b>
-From the drop down menu that appears click “Device Storage” and check step number ten.
-
-               </li><br>
-               <li>
-               <b>   Step Ten:</b>
-
-Immediately click Android Folder
-               </li><br>
-               <li>
-               <b>   Step Eleven:</b>
-Click “Data Folder” when you enter Android folder 
-               </li><br>
-               <li>
-                 <b> Step Twelve:</b>
-After entering Data folder, click Paste Icon, on the down right hand of your phone
-               </li><br>
-               <li>
-                 <b> Step thirteen:</b>
-
-Now, patiently wait until the FTS 24 data file has been fully copied into the Data folder. After that, we'll proceed to extract the FTS 2024 Obb file.
-
-               </li><br>
-                    <li>
-                       <b> Step fourteen:</b>
-To extract the obb file, click on it, options menu will come up 
-
-                    </li><br>
-                    <li>
-                        <b>Step fifteen:</b>
-From options that comes up, click Extract and check the next step.
-
-                    </li><br>
-                    <li>
-                   <b>    Step Sixteen:</b>
-Immediately click the title of the folder at the top of Zarchiver app interface.
-
-                    </li><br>
-                    <li>
-                      <b>Step seventeen:</b>
-From the drop down menu that appears, click “Device Storage”.
-
-                    </li><br>
-                    <li>
-                       <b>Step Eighteen: </b>
-Now click on “Android Folder”.
-
-                    </li>
-                    <li>
-               <b>  Step nineteen:</b>
-Click “Obb Folder” this time.
-             </li><br>
-               <li>
-           <b>       Step twenty:</b>
-Click “Extract Icon” after entering obb folder 
-               </li><br>
-               <li>
-              <b>     Step twenty one:</b>
-Then wait till obb file is fully extracted Next is for you the to install the Apk App for FTS.
-               </li><br>
-               <li>
-             <b>      Step twenty two:</b>
-Select the FTS 2024 Apk app and initiate the installation process. If you encounter a message about installation being blocked on certain devices, choose "Install Anyway." Rest assured, the Apk app is safe to install.
-               </li><br>
-                                                                                                                                                                           
-                </ol>
-            </div>
-
-  </section></p>
-        </details>
-        
-    </section>
+    
     <section>
         <div>
-            <h1>Feeling confused we got you covered</h1>
+ <h3>Feeling confused why setting game!! we got you covered</h3>
         Simply chat us on <a href="https://wa.link/834ji9">WhatsApp</a> or join our WhatsApp group to keep you updated 100%   
         </div>
         <div id="id">
-            <a href="https://chat.whatsapp.com/C4PrivMvCzXELdt8spLa2H">Join WhatsApp group</a>
-        </div>
+            <a href="https://chat.whatsapp.com/IcDkQurjkgmKjBm6vvhDJf">Join WhatsApp group</a>
+        </div><br>
     </section>
     
     
     
-    <section class="menu">
-    <h1>Related Articles</h1>
-    <table>
-        
-        
-        <tr>
-    <td><a href="fifa16.html"><img src="done.jpg"width="160px"height="100px" alt=""><br>Fifa 16 Mod 24 Apk + OBB +<br> Data Offline </a></td>
-    <td><a href="psp.html"><img src="psp1.jpg"width="160px"height="100px" alt=""><br>PES 2024 PPSSPP – PSP<br> Iso PS5 (eFootball)</a></td>
-        
-        
-        
-        
-        
+    <section class="ash">
+    <h1>PSP GAMES</h1><br>
+<div>
+<table>
   <tr>
-    <td><a href="fifa14.html"><img src="six.jpg"width="160px"height="100px" alt=""><br>FIFA 2024 Mod FIFA 14<br> APK+OBB+DATA </a></td>
-    <td><a href="dream.html"><img src="dl1.jpg"width="160px" height="100px" alt=""><br>Dream League Soccer 2024 <br>Mod Menu Apk Obb</a></td>
+    <td><a href="god-of-war.html"><img src="godofwar.jpg"width="165px"height="100px" alt=""><br>.</a></td>
+    <td><a href="god-of-war.html"> Gof Of War Chain Of Olympus (PSP)</a></td></tr>
     
-    
-    
-
     
     
     <tr>
-    <td><a href="fts.html"><img src="fts.jpg"width="160px"height="100px" alt=""><br>First Touch Soccer 2024 (FTS)<br> Mod Apk Obb Data </a></td>
-    <td><a href="efootball.html"><img src="eb.jpg"width="160px"height="100px" alt=""><br>PES 2024 Apk Obb 8.0.0<br> Download (eFootball) Android</a></td>
+    <td><a href="spider-man3.html"><img src="spider.jpg"width="165px"height="100px" alt=""><br>.</a></td>
+    <td><a href="spider-man3.html">Spider Man 3 (PSP)</a></td></tr>
+    
+    
+    
+    <tr>
+    <td><a href="justice-league.html"><img src="justice.jpg"width="165px"height="100px" alt="PSP"><br>.</a></td>
+    <td><a href="justice-league.html">Justice league Heroes (PSP)</a></td></tr>
+    
+    
+    
+    <tr>
+    <td><a href="transformer.html"><img src="transformer.jpg"width="165px"height="100px" 
+alt=""><br>.</a></td>
+<td><a href="transformer.html"><a href="transformer.html">Transformer Revenge Of the Fallen (PSP)</a></td></tr>
+    
+    
+     <tr>
+    <td><a href="ghost-rider.html"><img src="ghost.jpg"width="165px"height="100px" alt=""><br>.</a></td>
+    <td><a href="ghost-rider.html">Ghost Rider (PSP)</a></td></tr>
+    
+    
+    
+    <tr>
+    <td><a href="assassin.html"><img src="creed.jpg"width="165px"height="100px" 
+alt=""><br>.</a></td>
+    <td><a href="assassin.html">Assassin Creed Bloodline (PSP)</a></td></tr>
+    
+    
+    
+    
+    <tr>
+    <td><a href="resistance.html"><img src="resistance.jpg"width="165px"height="100px" alt=""><br>.</a></td>
+    <td><a href="resistance.html">Resistance Retribution (PSP)</a></td></tr>
+    
+    
+    
+    <tr>
+    <td><a href="tom-clancy.html"><img src="tom.jpg"width="165px"height="100px" 
+alt=""><br>.</a></td>
+    <td><a href="tom-clancy.html">Tom Clancy Splinter Cell (PSP)</a></td></tr>
+    
+    
+    
+    
+    
+    
+    <tr>
+    <td><a href="hot-wheels-ultimate-racing.html"><img src="hot-wheel.jpg"width="165px"height="100px" alt=""><br>.</a></td>
+    <td><a href="hot-wheels-ultimate-racing.html">Hot Wheels Ultimate Racing (PSP)</a></td></tr>
+    
+    
+    
+    <tr>
+    <td><a href="takken-6.html"><img src="takken6.jpg"width="165px"height="100px" 
+alt=""><br>.</a></td>
+    <td><a href="takken-6.html">Takken 6 (PSP)</a></td></tr>
+    
+    
     </table>
+    </div>
+    <div id="big1">
+    <a href="psp-games.html">View more >>></a>
+    </div>
+    
     </section><br><br>
+  
     
-    
+    <script lang="javascript" type="text/javascript" src="script.js"></script>
     
     
     <footer>
+        <div class="sweet">
+            
+        <a href="index.html">Home</a>/
+        <a href="Android-games.html">Games</a>/
+        <a href="Android-apps.html">Apps</a>/
+        <a href="psp-games.html">Psp</a>/
+        <a href="contact.html">Contact us</a>
+    </div>
+        
       <div class="us">
-         <h3>Contact or follow us on Facebook</h3>
+          
+         <h3>Follow us on social media and join our Group</h3>
          </div>
+         
+         <div class="image-container">
+     <a href="https://www.facebook.com/profile.php?id=61550752782084"><img src="Facebook.png" width="55px" alt="Image 1"></a>
+      
+       <a href="https://chat.whatsapp.com/IcDkQurjkgmKjBm6vvhDJf"><img src="WhatsApp.png" width="55px" alt="Image 3"></a>
+        
+        
+      <a href="https://t.me/+k35-Txp83qE2YzBk"><img src="telegram.png" width="55px" alt="Image 4"></a>
+      
+      
+    <a href="https://www.youtube.com/@Olitechgames"> <img src="you.png" width="55px" alt="Image 2"></a><br>
+      
+      
+    </div>    
+    </div>      
         <div>
-            <button class="blue"><a href="https://www.facebook.com/profile.php?id=61550752782084">Facebook</a></button>
-            <button class="green"><a href="https://wa.link/834ji9">WhatsApp</a></button>
-            <button class="blue"><a href="https://t.me/+k35-Txp83qE2YzBk">telegram</a></button><br>
-          <div class="line"><b> Olitechgames  &copy copyright 2023</b><br><br><b>✨built✨ by <a href="https://wa.link/834ji9">❤️Olitechgames❤️</a></b>
+          
+          <div class="lol"><b> Olitech Games  &copy copyright 2023</b><br><br><b>✨ Designed by✨<a href="https://wa.link/834ji9">❤️Olitech Games❤️</a></b>
           </div>
         </div>
     </footer>
+  
 </body>
 </html>
 
