@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Background Button</title>
+<link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <button id="searchButton" onclick="toggleSearch()">Search</button>
+  <div id="searchBackground" class="hidden">
+    <div class="search-container">  
+        <input type="text" id="searchInput" placeholder="Search ...." oninput="search()">
+        <button onclick="search()"><img src="search.jpg"width="30px" alt=""></button>
+    </div>
+
+    <div class="results">  
+        <ul id="searchResults"></ul>
+    </div>
+  </div>
+  <!-- Other content goes here -->
+
+  
+  
+  
+  
+  
+  <script lang="javascript" type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
