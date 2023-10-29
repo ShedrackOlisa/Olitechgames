@@ -46,6 +46,12 @@ section{
       
     }
 
+
+section h2{
+    font-size:18px;
+}
+
+
     .menu-icon {
       display: flex;
       flex-direction: column;
@@ -185,7 +191,7 @@ h2{
 }
 section h1{
     text-align: center;
-    font-size:20px;
+    font-size:25px;
     margin-top:200px;
 }
 #purple{
@@ -313,6 +319,10 @@ section #red{
     color: black;
 }
 
+.ash table a:hover{
+    color: blue;
+}
+
 
 .ash{
     background:#E0E0E0 ;
@@ -365,7 +375,9 @@ section #red{
    .menu table a{
    color: black;
    }
-
+.menu table a:hover{
+    color: blue;
+}
 
 #img img {
             max-width: 100%; /* Ensure the image doesn't exceed its container */
@@ -390,7 +402,7 @@ section #red{
 }
 h1{
     text-align: center;
-    font-size:25px;
+    font-size:20px;
       
     }
 #datetime-display{
@@ -436,11 +448,11 @@ h1{
             justify-content: center;
             background: #e8491d;
             color: #fff;
-            width: 300px;
+            width: 310px;
             border-radius: 12px;
             text-align: center;
             height: 50px;
-            font-size: 15px;
+            font-size: 12px;
             font-weight: bold;
             border: none; /* Remove border */
         }
@@ -563,7 +575,7 @@ h1{
     text-align: center;
 }
 .inner2{
-    background: #fff;
+    background: #E0E0E0;
 }
 
 
@@ -632,7 +644,7 @@ p {
              /* Adjust as needed */
         }
         .short1 button {
-            background: #fff;
+            background: #E0E0E0;
             color: black;
             width: 180px;
             border-radius: /* 5px */;
@@ -848,7 +860,7 @@ section ul{
      
   .whatsapp-button {
       position: fixed;
-      bottom: 50%;
+      bottom: 25%;
       right: 0;
       transform: translateY(50%);
       background-color: green;

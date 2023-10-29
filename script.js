@@ -57,6 +57,144 @@ function copyLink() {
             if (input.length === 0) return;
 
             const contentArray = [
+ '<td><a href="sniper-of-duty.html"><img src="sniper-of-duty.jpg"width="160px"height="100px" alt=""><br> Sniper Of Duty </a></td>',
+    '<td><a href="spider-fighter-3.html"><img src="spider-fighter-3.jpg"width="160px"height="100px" alt=""><br> Spider Fighter 3</a></td>',
+
+'<td><a href="xenowerk.html"><img src="xenowerk.jpg"width="160px"height="100px" alt=""><br> Xenowerk</a></td>',
+
+  '<td><a href="major-gun.html"><img src="major-gun.jpg"width="160px"height="100px" alt=""><br>Major Gun 2</a></td>',
+    '<td><a href="battle-of-warships.html"><img src="battle-of-warships.jpg"width="160px"height="100px" alt=""><br> Battle Of Warship</a></td>',
+ 
+   '<td><a href="modern-combat-5.html"><img src="modern-combat-5.jpg"width="160px"height="100px" alt=""><br>Modern Combat 5</a></td>',
+    '<td><a href="forward-assault.html"><img src="forward-assault.jpg"width="160px" height="100px" alt=""><br>Forward Assault</a></td>',
+    
+    
+    
+    
+    '<td><a href="darkness-saga.html"><img src="darkness-saga.jpg"width="160px"height="100px" alt=""><br>Darkness Saga</a></td>',
+    '<td><a href="dead-empire.html"><img src="dead-empire.jpg"width="160px"height="100px" alt=""><br> Dead Empire</a></td>',
+
+'<td><a href="gta-san.html"><img src="gta-san.jpg"width="160px"height="100px" alt=""><br>GTA Sanadrease</a></td>',
+    '<td><a href="gta-5.html"><img src="gta-5.jpg"width="160px" height="100px" alt=""><br>GTA V</a></td>',
+    
+    
+    
+    
+    '<td><a href="gta-4.html"><img src="gta-4.jpg"width="160px"height="100px" alt=""><br>GTA Liberty Stories</a></td>',
+    '<td><a href="gta-vice-city.html"><img src="gtav.jpg"width="160px"height="100px" alt=""><br>GTA Vice City</a></td>',
+    
+    
+    
+    '<td><a href="gta-3.html"><img src="gta-3.jpg"width="160px"height="100px" alt=""><br> GTA III</a></td>',
+    '<td><a href="gta-chinatown-war.html"><img src="gta-chinatown-war.jpg"width="160px"height="100px" alt=""><br> GTA Chinatown War</a></td>',
+    
+    
+    
+    '<td><a href="gangstar-vegas.html"><img src="g-vegas.jpg"width="160px"height="100px" alt=""><br>Gangstar Vegas</a></td>',
+    '<td><a href="city-of-crime.html"><img src="city-of-crime.jpg"width="160px"height="100px" alt=""><br> City Of Crime</a></td>',
+    
+    
+    
+    '<td><a href="mafia-city.html"><img src="mafia-city.jpg"width="160px"height="100px" alt=""><br>Mafia City</a></td>',
+    '<td><a href="payback-2.html"><img src="payback-2.jpg"width="160px"height="100px" alt=""><br> Payback 2</a></td>',
+
+'<td><a href="hero-hunters.html"><img src="hero-hunters.jpg"width="160px"height="100px" alt=""><br>Hero Hunters</a></td>',
+    '<td><a href="spider-fighter-2.html"><img src="spider-fighter-2.jpg"width="160px" height="100px" alt=""><br>Spider Fighter 2</a></td>',
+    
+    
+    
+    
+    '<td><a href="broken-dawn.html"><img src="broken-dawn.jpg"width="160px"height="100px" alt=""><br>Broken Dawn</a></td>',
+    '<td><a href="marsaction.html"><img src="marsaction.jpg"width="160px"height="100px" alt=""><br> Marsaction</a></td>',
+    
+    
+    
+    '<td><a href="nexus-war.html"><img src="nexus-war.jpg"width="160px"height="100px" alt=""><br> Nexus War..</a></td>',
+    '<td><a href="defense-legend-4.html"><img src="defense-legend-4.jpg"width="160px"height="100px" alt=""><br> Defense Legend 4</a></td>',
+    
+    
+    
+    '<td><a href="racing-xtreme-2.html"><img src="racing-xtreme-2.jpg"width="160px"height="100px" alt=""><br>Racing Xtreme 2</a></td>',
+    '<td><a href="endless-nightmare-3.html"><img src="endless-nightmare-3.jpg"width="160px"height="100px" alt=""><br> Endless Nightmare 3</a></td>',
+    
+    
+    
+    '<td><a href="roblox.html"><img src="roblox.jpg"width="160px"height="100px" alt=""><br>Roblox</a></td>',
+    '<td><a href="art-of-war-3.html"><img src="art-of-war-3.jpg"width="160px"height="100px" alt=""><br> Art Of War 3</a></td>',
+
+
+ '<td><a href="age-of-origins.html"><img src="age-of-origins.jpg"width="160px"height="100px" alt=""><br>Age Of Origins</a></td>',
+    '<td><a href="the-walking-dead.html"><img src="the-walking-dead.jpg"width="160px" height="100px" alt=""><br>The Waking Dead</a></td>',
+    
+    
+    
+    
+    '<td><a href="dead-trigger-2.html"><img src="dead-trigger-2.jpg"width="160px"height="100px" alt=""><br>Dead Trigger 2</a></td>',
+    '<td><a href="into-the-dead-2.html"><img src="into-the-dead-2.jpg"width="160px"height="100px" alt=""><br>Into The Dead 2</a></td>',
+    
+    
+    
+    '<td><a href="cover-fire.html"><img src="cover-fire.jpg"width="160px"height="100px" alt=""><br> Cover Fire </a></td>',
+    '<td><a href="critical-ops.html"><img src="critical-ops.jpg"width="160px"height="100px" alt=""><br> Critical Ops Multiplayer FPS</a></td>',
+    
+    
+    
+    '<td><a href="guns-of-glory.html"><img src="guns-of-glory.jpg"width="160px"height="100px" alt=""><br>Guns Of Glory Lost Island</a></td>',
+    '<td><a href="last-shelter.html"><img src="last-shelter.jpg"width="160px"height="100px" alt=""><br> Last Shelter Survival</a></td>',
+    
+    
+    
+    '<td><a href="injustice-gods-among-us.html"><img src="injustice-gods-among-us.jpg"width="160px"height="100px" alt=""><br>Injustice Gods Among Us</a></td>',
+    '<td><a href="viking-rise.html"><img src="viking-rise.jpg"width="160px"height="100px" alt=""><br> Viking Rise</a></td>',    
+ 
+  '<td><a href="riptide-gp2.html"><img src="riptide-gp2.jpg"width="160px"height="100px" alt=""><br>Riptide GP2</a></td>',
+    '<td><a href="need-for-speed-no-limits.html"><img src="need-for-speed-no-limits.jpg"width="160px" height="100px" alt=""><br>Need For Speed...</a></td>',
+    
+    
+    
+    
+    '<td><a href="carx-highway.html"><img src="carx-highway.jpg"width="160px"height="100px" alt=""><br>CarX Highway</a></td>',
+    '<td><a href="csr-racing-2.html"><img src="csr-racing-2.jpg"width="160px"height="100px" alt=""><br> CSR Racing 2</a></td>',
+    
+    
+    
+    '<td><a href="csr-classics.html"><img src="csr-classics.jpg"width="160px"height="100px" alt=""><br> CSR Classic</a></td>',
+    '<td><a href="jdm-racing.html"><img src="jdm-racing.jpg"width="160px"height="100px" alt=""><br> JDM Racing Drag....</a></td>',
+    
+    
+    
+    '<td><a href="hot-slide.html"><img src="hot-slide.jpg"width="160px"height="100px" alt=""><br>Hot Slide</a></td>',
+    '<td><a href="horizon-chase.html"><img src="horizon-chase.jpg"width="160px"height="100px" alt=""><br> Horizon Chase</a></td>',
+    
+    
+    
+    '<td><a href="top-speed.html"><img src="top-speed.jpg"width="160px"height="100px" alt=""><br>Top Speed Drag...</a></td>',
+    '<td><a href="torque-burnout.html"><img src="torque-burnout.jpg"width="160px"height="100px" alt=""><br> Torque Burnout</a></td>',
+ 
+ '<td><a href="chief-almighty.html"><img src="chief-almighty.jpg"width="160px"height="100px" alt=""><br>Chief Almighty</a></td>',
+    '<td><a href="ninja-raiden.html"><img src="ninja-raiden.jpg"width="160px" height="100px" alt=""><br>Ninja Raiden Revenge</a></td>',
+    
+    
+    
+    
+    '<td><a href="world-of-kings.html"><img src="world-of-kings.jpg"width="160px"height="100px" alt=""><br>World Of Kings</a></td>',
+    '<td><a href="ronin.html"><img src="ronin.jpg"width="160px"height="100px" alt=""><br> Ronin The Last Samurai</a></td>',
+    
+    
+    
+    '<td><a href="kritika.html"><img src="kritika.jpg"width="160px"height="100px" alt=""><br> Kritika </a></td>',
+    '<td><a href="shadow-of-death.html"><img src="shadow-of-death.jpg"width="160px"height="100px" alt=""><br> Shadow Of Death</a></td>',
+    
+    
+    
+    '<td><a href="awaken.html"><img src="awaken.jpg"width="160px"height="100px" alt=""><br>Awaken Chaos Era</a></td>',
+    '<td><a href="among-gods.html"><img src="among-gods.jpg"width="160px"height="100px" alt=""><br> Among Gods</a></td>',
+    
+    
+    
+    '<td><a href="frost.html"><img src="frost.jpg"width="160px"height="100px" alt=""><br>Frost & Flame</a></td>',
+    '<td><a href="shadow-slayer.html"><img src="shadow-slayer.jpg"width="160px"height="100px" alt=""><br> Shadow Slayer</a></td>',
+
 '<td><a href="ppsspp-gold-apk.html"><img src="psp-gold.jpg"width="160px"height="100px" alt=""><br>PPSSPP Gold Apk</a></td>',
     '<td><a href="zarchiver.html"><img src="zarchiver.jpg"width="160px"height="100px" alt=""><br>Zarchiver Pro Apk</a></td>',
 
