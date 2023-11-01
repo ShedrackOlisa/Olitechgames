@@ -57,6 +57,8 @@ function copyLink() {
             if (input.length === 0) return;
 
             const contentArray = [
+ '<td><a href="w2k-22.html"><img src="w2k-22.jpg"width="160px"height="100px" alt=""><br>W2k 22 (PSP)</a></td>',
+ 
  '<td><a href="sniper-of-duty.html"><img src="sniper-of-duty.jpg"width="160px"height="100px" alt=""><br> Sniper Of Duty </a></td>',
     '<td><a href="spider-fighter-3.html"><img src="spider-fighter-3.jpg"width="160px"height="100px" alt=""><br> Spider Fighter 3</a></td>',
 
