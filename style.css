@@ -863,7 +863,7 @@ section ul{
       bottom: 25%;
       right: 0;
       transform: translateY(50%);
-      background-color: green;
+      background-color: blue;
       color: white;
       border-radius: 50%;
       width: 60px; /* Adjusted width */
@@ -936,4 +936,13 @@ text-decoration:none;
 .ad{
     
     text-align: center;
+}
+
+
+
+
+.zarchiver{
+    text-align: center;
+    font-size:17px;
+    font-weight:bold;
 }

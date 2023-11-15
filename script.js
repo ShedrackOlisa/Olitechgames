@@ -57,6 +57,188 @@ function copyLink() {
             if (input.length === 0) return;
 
             const contentArray = [
+  '<td><a href="twitter-x.html"><img src="twitter-x.jpg"width="160px"height="100px" alt=""><br>Twitter X </a></td>',
+    '<td><a href="discord.html"><img src="discord.jpg"width="160px" height="100px" alt=""><br>Discord </a></td>',
+    
+    
+    
+    
+ 
+    '<td><a href="telegram-x.html"><img src="telegram-x.jpg"width="160px"height="100px" alt=""><br>Telegram X </a></td>',
+    '<td><a href="pinterest.html"><img src="pinterest.jpg"width="160px" height="100px" alt=""><br> Pinterest</a></td>',
+
+'<td><a href="pjsub.html"><img src="pjsub.jpg"width="160px"height="100px" alt=""><br>PJsub </a></td>',
+    '<td><a href="onefootball.html"><img src="onefootball.jpg"width="160px" height="100px" alt=""><br>Onefootball </a></td>',
+    
+    
+    
+        
+           
+
+    '<td><a href="luck-patcher.html"><img src="luck-patcher.jpg"width="160px"height="100px" alt=""><br>Luck Patcher </a></td>',
+    '<td><a href="moon.html"><img src="moon.jpg"width="160px" height="100px" alt=""><br>Moon VPN Browser </a></td>',
+    
+    
+    
+    
+
+    '<td><a href="gcash.html"><img src="gcash.jpg"width="160px"height="100px" alt=""><br>Gcash </a></td>',
+    '<td><a href="loklok.html"><img src="loklok.jpg"width="160px" height="100px" alt=""><br> Loklok</a></td>',      
+
+ '<td><a href="gta-5-psp.html"><img src="gta-5-psp.jpg"width="160px"height="100px" alt=""><br>GTA 5 (PSP) </a></td>',
+    '<td><a href="gta-san-psp.html"><img src="gta-san-psp.jpg"width="160px" height="100px" alt=""><br> GTA San Andreas (PSP)</a></td>',
+    
+    
+    
+    
+     
+    '<td><a href="gta-liberty-city-psp.html"><img src="gta-liberty-city-psp.jpg"width="160px"height="100px" alt=""><br>GTA Liberty City (PSP) </a></td>',
+    '<td><a href="gta-vice-city-psp.html"><img src="gta-vice-city-psp.jpg"width="160px" height="100px" alt=""><br> GTA Vice City (PSP)</a></td>',
+    
+    
+    
+    
+    '<td><a href="gta-chinatown-psp.html"><img src="gta-chinatown-psp.jpg"width="160px"height="100px" alt=""><br>GTA Chinatown war (PSP) </a></td>',
+    '<td><a href="jump-force.html"><img src="jump-force.jpg"width="160px" height="100px" alt=""><br> Jump Force (PSP)</a></td>',
+    
+    
+    
+    
+  
+    '<td><a href="fifa-14-psp.html"><img src="fifa-14-psp.jpg"width="160px"height="100px" alt=""><br>FIFA 14 (PSP) </a></td>',
+    '<td><a href="wipeout.html"><img src="wipeout.jpg"width="160px" height="100px" alt=""><br>Wipeout Pulse (PSP)</a></td>',  
+    
+
+ '<td><a href="iron-man-psp.html"><img src="iron-man-psp.jpg"width="160px"height="100px" alt=""><br>Iron Man (PSP) </a></td>',  
+    
+    
+    
+    
+       '<td><a href="call-of-duty-psp.html"><img src="call-of-duty-psp.jpg"width="160px" height="100px" alt=""><br>Call Of Duty Road To <br> Victory (PSP)</a></td>',
+    '<td><a href="spider-man-web-of-shadow.html"><img src="spider-man-web-of-shadow.jpg"width="160px"height="100px" alt=""><br>Spider Man web of <br>shadow(PSP) </a></td>',
+    
+    
+    
+     
+ 
+    '<td><a href="avatar.html"><img src="avatar.jpg"width="160px"height="100px" alt=""><br>Avatar (PSP) </a></td>',
+    '<td><a href="xiaolin-showdown.html"><img src="xiaolin-showdown.jpg"width="160px"height="100px" alt=""><br> Xiaolin showdown (PSP)</a></td>',
+    
+    
+    
+
+    '<td><a href="metal-slug-xx.html"><img src="metal-slug-xx.jpg"width="160px"height="100px" alt=""><br>Metal Slug XX (PSP) </a></td>',
+    '<td><a href="ys-seven.html"><img src="ys-seven.jpg"width="160px"height="100px" alt=""><br>YS Seven (PSP) </a></td>',
+    
+    
+    
+    
+ 
+    '<td><a href="the-simpsons.html"><img src="the-simpsons.jpg"width="160px"height="100px" alt=""><br>The Simpsons (PSP) </a></td>',
+    '<td><a href="daxter.html"><img src="daxter.jpg"width="160px"height="100px" alt=""><br>Daxter (PSP) </a></td>', 
+
+ '<td><a href="assassin-creed-identity.html"><img src="assassin-creed-identity.jpg"width="160px"height="100px" alt=""><br> Assassins Creed Identity</a></td>',
+
+'<td><a href="splinter-cell.html"><img src="splinter-cell.jpg"width="160px" height="100px" alt=""><br> Splinter Cell Conviction HD</a></td>',
+
+'<td><a href="amazing-spider-man-2.html"><img src="amazing-spider-man-2.jpg"width="160px"height="100px" alt=""><br> Amazing Spider Man 2</a></td>',
+    '<td><a href="batman-the-dark-knight.html"><img src="batman-the-dark-knight.jpg"width="160px" height="100px" alt=""><br> Batman the dark Knight</a></td>',
+    
+    
+    
+    
+
+    '<td><a href="warface.html"><img src="warface.jpg"width="160px"height="100px" alt=""><br>Warface </a></td>',
+    '<td><a href="backstab.html"><img src="backstab.jpg"width="160px" height="100px" alt=""><br> Backstab</a></td>',
+    
+    
+    
+    
+    
+
+    '<td><a href="nba-2k19.html"><img src="nba-2k19.jpg"width="160px"height="100px" alt=""><br>NBA 2K19 </a></td>',
+    '<td><a href="max-payne.html"><img src="max-payne.jpg"width="160px" height="100px" alt=""><br> Max Payne</a></td>',
+
+'<td><a href="frontline-commando-d-day.html"><img src="frontline-commando-d-day.jpg"width="160px"height="100px" alt=""><br>Frontline Commando D-day </a></td>',
+    '<td><a href="modern-combat-4.html"><img src="modern-combat-4.jpg"width="160px" height="100px" alt=""><br> Modern Combat 4</a></td>',
+
+'<td><a href="gta-mzansi.html"><img src="gta-mzansi.jpg"width="160px"height="100px" alt=""><br> GTA Mzansi</a></td>',
+    '<td><a href="frontline-commando-2.html"><img src="frontline-commando-2.jpg"width="160px"height="100px" alt=""><br>Frontline Commando 2 </a></td>',
+       
+       
+       
+       
+    '<td><a href="amazing-spider-man.html"><img src="amazing-spider-man.jpg"width="160px"height="100px" alt=""><br> Amazing Spider Man</a></td>',
+    '<td><a href="top-football-manager-2024.html"><img src="top-football-manager-2024.jpg"width="160px"height="100px" alt=""><br>Top Football Manger 2024 </a></td>',
+
+ '<td><a href="tomb-raider.html"><img src="tomb-raider.jpg"width="160px"height="100px" alt=""><br>Tomb Raider (PSP) </a></td>',
+    '<td><a href="spider-man-2.html"><img src="spider-man-2.jpg"width="160px" height="100px" alt=""><br>Spider Man 2 (PSP)</a></td>',
+    
+    
+    
+   
+    '<td><a href="iron-man-2.html"><img src="iron-man-2.jpg"width="160px"height="100px" alt=""><br> Iron Man 2 (PSP)</a></td>',
+    '<td><a href="x-men-2.html"><img src="x-men-2.jpg"width="160px" height="100px" alt=""><br>X-Men 2 (PSP)</a></td>',
+    
+    
+    
+    
+    '<td><a href="pro-evolution.html"><img src="pro-evolution.jpg"width="160px"height="100px" alt=""><br> Pro Evolution (PSP)</a></td>',
+    '<td><a href="winning-eleven.html"><img src="winning-eleven.jpg"width="160px" height="100px" alt=""><br>Winning Eleven (PSP)</a></td>',
+    
+    
+    
+    
+    
+    
+    '<td><a href="spectral-soul.html"><img src="spectral-soul.jpg"width="160px"height="100px" alt=""><br> Spectral Soul (PSP)</a></td>',
+    '<td><a href="wwe-2008.html"><img src="wwe-2008.jpg"width="160px" height="100px" alt=""><br>WWE VS Raw 2008 (PSP)</a></td>',
+    
+    
+    
+    
+    
+    
+    
+    '<td><a href="sonic-rivals.html"><img src="sonic-rivals.jpg"width="160px"height="100px" alt=""><br>Sonic Rivals (PSP) </a></td>',
+    '<td><a href="hot-shots-golf.html"><img src="hot-shots-golf.jpg"width="160px" height="100px" alt=""><br>Hot Shots Golf (PSP)</a></td>',
+
+'<td><a href="army-of-two.html"><img src="army-of-two.jpg"width="160px"height="100px" alt=""><br>Army Of Two (PSP) </a></td>',
+    '<td><a href="pursuit-force-extreme.html"><img src="pursuit-force-extreme.jpg"width="160px" height="100px" alt=""><br> Pursuit Force Extreme (PSP)</a></td>',
+    
+    
+    
+    
+    
+ 
+    '<td><a href="gripshift.html"><img src="gripshift.jpg"width="160px"height="100px" alt=""><br>Gripshift (PSP) </a></td>',
+    '<td><a href="fifa-street-2.html"><img src="fifa-street-2.jpg"width="160px" height="100px" alt=""><br>Fifa Street 2 (PSP)</a></td>',
+    
+    
+    
+    
+       
+
+    '<td><a href="ghosts-goblins.html"><img src="ghosts-goblins.jpg"width="160px"height="100px" alt=""><br> Ghost Goblins (PSP)</a></td>',
+    '<td><a href="lord-of-the-rings.html"><img src="lord-of-the-rings.jpg"width="160px" height="100px" alt=""><br>Lord Of The Rings (PSP)</a></td>',
+    
+    
+    
+    
+    
+ 
+    '<td><a href="tactics-ogre.html"><img src="tactics-ogre.jpg"width="160px"height="100px" alt=""><br>Tactics Ogre (PSP)</a></td>',
+    '<td><a href="dante.html"><img src="dante.jpg"width="160px" height="100px" alt=""><br>Dante Inferno (PSP)</a></td>',
+    
+    
+    
+    
+    
+    
+ 
+    '<td><a href="disgaea.html"><img src="disgaea.jpg"width="160px"height="100px" alt=""><br>Disgaea (PSP)</a></td>',
+    '<td><a href="lumines.html"><img src="lumines.jpg"width="160px" height="100px" alt=""><br> Lumines (PSP)</a></td>',     
+
  '<td><a href="w2k-22.html"><img src="w2k-22.jpg"width="160px"height="100px" alt=""><br>W2k 22 (PSP)</a></td>',
  
  '<td><a href="sniper-of-duty.html"><img src="sniper-of-duty.jpg"width="160px"height="100px" alt=""><br> Sniper Of Duty </a></td>',
