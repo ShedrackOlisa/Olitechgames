@@ -861,7 +861,7 @@ search-container button img { width: 30px; height: 30px; /* Adjust height as nee
       bottom: 25%;
       right: 0;
       transform: translateY(50%);
-      background-color: green;
+      background-color: blue ;
       color: white;
       border-radius: 50%;
       width: 60px; /* Adjusted width */
