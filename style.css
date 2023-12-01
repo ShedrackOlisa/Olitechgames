@@ -327,9 +327,9 @@ section #red{
 
 
 .ash{
-    background:#E0E0E0 ;
+    background:#fff ;
     align-items: center;
-    border:3px solid #fff;
+    border:3px solid #E0E0E0;
 }
 .wide a:hover{
     color:#e8491d;
@@ -346,7 +346,7 @@ section #red{
             margin: 0 auto; /* Ensure content is centered horizontally */
             max-width: 1200px; /* Set a maximum width for the content */
             padding: ; /* Optional: Add padding around the content */
-            background:#E0E0E0 ;
+            background:#fff;
            
         }
 
@@ -358,7 +358,7 @@ section #red{
         }
 
         .menu table td {
-            border: 1px solid #fff /* #ccc */; /* Optional: Add a border for table cells */
+            border: 3px solid #E0E0E0 /* #ccc */; /* Optional: Add a border for table cells */
             padding: /* 10px */;
             text-align: center; /* Center the content in each cell */
         }
