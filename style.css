@@ -577,7 +577,7 @@ h1{
     text-align: center;
 }
 .inner2{
-    background: #E0E0E0;
+    background: #fff;
 }
 
 
@@ -646,7 +646,7 @@ p {
              /* Adjust as needed */
         }
         .short1 button {
-            background: #E0E0E0;
+            background: #fff;
             color: black;
             width: 180px;
             border-radius: /* 5px */;
