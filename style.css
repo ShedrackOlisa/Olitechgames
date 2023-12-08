@@ -945,3 +945,22 @@ text-decoration:none;
     font-size:17px;
     font-weight:bold;
 }
+.app{
+    text-align: center;
+    font-size:18px;
+    
+    
+}
+
+.ad{
+    
+    text-align: center;
+}
+
+
+
+
+.bd{
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+}
