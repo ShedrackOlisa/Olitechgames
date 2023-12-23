@@ -4,14 +4,31 @@ body{
     margin:0 ;
     background-color:#fff;
     margin: 0;
-    
+    font-size:15px;
     }
 section{
     width: 90%;
     margin:auto;
     overflow: hidden;
+    
     text-align:
     }
+    #center-3{
+        text-align: center;
+    }
+   #bt-more button{
+       background: #e8491d;
+       width: 100px;
+       height: 25px;
+       border:none;
+       border-radius:10px;
+   }
+   
+   #bt-more button a{
+       color: #fff;
+       
+   }
+    
    header img{
        margin:
    }
