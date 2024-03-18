@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cookie Consent</title>
+  <style>
+    /* Style for the cookie consent popup */
+    .cookie-consent {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: #333;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .cookie-text a {
+      color: #ffcc00;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .cookie-text a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <script>
+    // Function to close the cookie consent popup
+    function closeCookieConsent() {
+      var cookieConsent = document.getElementById('cookieConsent');
+      cookieConsent.style.display = 'none';
+      localStorage.setItem('cookieAccepted', 'true');  // Set a flag in local storage
+    }
+
+    // Function to show the cookie consent popup after 30 seconds
+    function showCookiePopup() {
+      var cookieAccepted = localStorage.getItem('cookieAccepted');
+      if (!cookieAccepted) {
+        var cookieConsent = document.getElementById('cookieConsent');
+        cookieConsent.style.display = 'block';
+      }
+    }
+
+    // Show the cookie consent popup after 30 seconds
+    setTimeout(showCookiePopup, 30000); // 30 seconds
+  </script>
+
+  <div id="cookieConsent" class="cookie-consent">
+    <div class="cookie-text">
+      We use cookies to enhance your experience. By continuing to visit this site, you agree to our use of cookies and privacy policy. <button><a href="alart.html" onclick="closeCookieConsent()">Got it</a></button><button><a href="comment.html">join</a></button>
+    </div>
+  </div>
+
+</body>
+</html>
